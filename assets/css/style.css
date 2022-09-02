@@ -189,6 +189,7 @@ ul a:hover {
     width: 100%;
     height: auto;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .products--content {
@@ -207,6 +208,7 @@ ul a:hover {
     width: 100%;
     margin-left: 10px;
     color: #FFF;
+    border-radius: 10px;
 }
 
 .content span {
@@ -227,10 +229,16 @@ ul a:hover {
     width: 100%;
     height: auto;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .products--price--1 h4 {
     color: #FFF;
+
+}
+.products--price--1 span {
+    color: #2a753a;
+    font-weight: bold;
 }
 
 .desconto {
@@ -262,6 +270,7 @@ ul a:hover {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .products--phone--1 span {
@@ -271,7 +280,8 @@ ul a:hover {
 }
 
 .parcerias--area {
-background-color: #bfcab2;
+/* background-color: #bfcab2; */
+    background-color: #042643;
 }
 
 .parcerias {
@@ -291,7 +301,8 @@ background-color: #bfcab2;
 
 footer {
     display: flex;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #041a2c;
     width: 100%;
     height: 50px;
 }
