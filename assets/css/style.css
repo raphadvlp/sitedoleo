@@ -299,6 +299,19 @@ ul a:hover {
     height: auto;
 }
 
+.arrow--top {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    display: none;
+}
+
+.arrow--top img {
+    width: 40px;
+    height: auto;
+}
+
+
 footer {
     display: flex;
     /* background-color: #000; */
@@ -310,3 +323,225 @@ footer {
 .text--footer {
     font-size: 12px;
 }
+
+.menuMobile {
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+
+.menuMobile .line1 {
+    width: 35px;
+    height: 3px;
+    background-color: #FFF;
+    margin-top: 7px;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+    .menuMobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .sociais {
+        padding-right: 10px;
+    }
+
+    .slogan {
+        padding-left: 10px;
+    }
+    
+    .products--area {
+        margin-right: 10px;
+        margin-bottom: 50px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+    .menu ul {
+        display: none;
+    }
+
+    .topo {
+        flex-direction: column;
+    }
+    
+    .menuMobile {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .slogan {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .products--area {
+        margin-right: 10px;
+        margin-bottom: 50px;
+        height: 100%;
+    }
+
+    .products--phone {
+        flex-direction: column;
+    }
+
+    .products--phone--1 {
+        margin-bottom: 10px;
+    }
+
+    .arrow--top {
+        right: 15px;
+        bottom: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .menu ul {
+        display: none;
+    }
+
+    .topo {
+        flex-direction: column;
+    }
+    
+    .menuMobile {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .slogan {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title--1 h1 {
+        display: flex;
+        width: 100%;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-size: 15px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .products--area {
+        margin-right: 10px;
+        margin-bottom: 50px;
+        height: 100%;
+    }
+
+    .products--phone {
+        flex-direction: column;
+    }
+
+    .products--phone span {
+        font-size: 15px;
+    }
+
+    .products--phone--1 {
+        margin-bottom: 10px;
+        width: 97%;
+    }
+
+    .arrow--top {
+        right: 15px;
+        bottom: 10px;
+    }
+
+    .products--title--1 h4 {
+        font-size: 15px;
+    }
+
+    .content span {
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .menu ul {
+        display: none;
+    }
+
+    .topo {
+        flex-direction: column;
+    }
+    
+    .menuMobile {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .slogan {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title--1 h1 {
+        display: flex;
+        width: 100%;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-size: 15px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .products--phone {
+        flex-direction: column;
+    }
+
+    .products--phone span {
+        font-size: 15px;
+    }
+
+    .products--phone--1 {
+        margin-bottom: 10px;
+        width: 97%;
+    }
+
+    .arrow--top {
+        right: 15px;
+        bottom: 10px;
+    }
+
+    .products--title--1 h4 {
+        font-size: 15px;
+    }
+
+    .content span {
+        font-size: 13px;
+    }
+}
+
+/* @media (min-width: 300px) and (max-width: 700px) {
+    body {
+        background-color: royalblue;
+    }
+} */

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="image--bg">
-        <header>
+        <header id="top">
             <div class="container">
                 <div class="topo">
                     <div class="logo">
@@ -17,12 +17,19 @@
                             <img src="assets/img/logo.PNG" alt="" srcset="">
                         </a>
                     </div>
+                    <div class="menuMobile">
+                        <a href="#"></a>
+                            <div class="line1"></div>
+                            <div class="line1"></div>
+                            <div class="line1"></div>
+                        </a>
+                    </div>
                     <div class="menu">
                         <ul>
                             <a href="#"><li>INÍCIO</li></a>
                             <a href="#products"><li>PLANOS</li></a>
                             <a href="#parceiros"><li>PARCEIROS</li></a>
-                            <a href="#"><li>SOBRE</li></a>
+                            <a href="#sobre"><li>SOBRE</li></a>
                         </ul>
                     </div>
                     <div class="sociais">
@@ -151,10 +158,10 @@
             </div>
         </div>
     </div>
-    <div class="arrow--top">
-        <img src="" alt="">
+    <div id="arrowtop" class="arrow--top fa-blink" onclick="subir()">
+        <a href="#top"><img src="assets/img/arrowtop.png" alt=""></a>
     </div>
-    <footer>
+    <footer id="sobre">
         <div class="container">
             <div class="text--footer">
                 <span><i>© Todos os seus direitos reservados - Anguta Media</i></span>
@@ -162,6 +169,7 @@
         </div>
     </footer>
 
-    <script src="../assets/js/menuMobile.js"></script>
+    <script src="assets/js/arrowTop.js"></script>
+    <script src="assets/js/menuMobile.js"></script>
 </body>
 </html>
